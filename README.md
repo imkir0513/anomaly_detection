@@ -5,7 +5,7 @@ This project endeavors to detect unusual events in a simulated credit card trans
 For additional insights on data cleaning and data modeling, please refer to: [[Project PowerPoint]](https://drive.google.com/file/d/1aRfzkz3Ce1CibNvE_z8YgL__RyDmn4oH/view?usp=sharing)<br>
 To view a demonstration of the user interface, watch the: [[Project Demo]](https://www.youtube.com/watch?v=UPLxJ4jbBDo&ab_channel=YiboGe)
 
-## Project structure
+## Project Structure
 Encompasses various stages, starting with data preparation, modeling, and deployment using AWS Storage & Compute services. 
 <br>
 1. Data Preparation <br>
