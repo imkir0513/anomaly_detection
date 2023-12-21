@@ -2,9 +2,6 @@
 
 This project endeavors to detect unusual events in a simulated credit card transaction dataset by utilizing machine learning and incorporating cloud deployment on AWS.<br>
 
-More details please go to: [[Project PowerPoint]](https://drive.google.com/file/d/1aRfzkz3Ce1CibNvE_z8YgL__RyDmn4oH/view?usp=sharing)<br>
-The demo video: [[Project Demo]](https://www.youtube.com/watch?v=UPLxJ4jbBDo&ab_channel=YiboGe)
-
 ## Project structure
 Encompasses various stages, starting with data preparation, modeling, and deployment using AWS Storage & Compute services. 
 <br>
@@ -17,5 +14,8 @@ In the modeling phase, the prepared data is used for building and training the m
 3. Deploy & Display<br>
 Once the model is trained and outliers are identified, the project transitions to deployment and presentation. The model is hosted on an Amazon EC2 instance for accessibility. For an enhanced user experience, Flask is employed for deployment, allowing users to interactively search specific time periods and analyze data related to outliers. This ensures a user-friendly interface for exploring and understanding the outcomes of the anomaly detection process.
 
+![alt text](https://github.com/imkir0513/anomaly_detection/blob/master/images/project_structure.png)
 
+For additional insights on data cleaning and data modeling, please refer to: [[Project PowerPoint]](https://drive.google.com/file/d/1aRfzkz3Ce1CibNvE_z8YgL__RyDmn4oH/view?usp=sharing)<br>
+To view a demonstration of the user interface, watch the: [[Project Demo]](https://www.youtube.com/watch?v=UPLxJ4jbBDo&ab_channel=YiboGe)
 
