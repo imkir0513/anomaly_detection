@@ -1,0 +1,38 @@
+{% include "header5.html" %}
+
+<link href="{{url_for('static', filename = 'css/bootstrap.min.css')}}" rel="stylesheet">
+<meta name="viewport" content="width=device-width">
+
+{% block body %}
+<style>
+    body {
+      background-image: url('https://www.blufftonsun.com/wp-content/uploads/2017/01/id_theft.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position:20% 90%;
+      background-size: 40%;
+    }
+    </style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <title>Fraud Detection</title>
+</head>
+    
+<body>
+    <br>
+    <p style="text-align:center;"><img src="https://media2.giphy.com/media/l2JhpkaCMuLcQs09O/giphy.gif"></p>
+    <span style="color:#0053a3;"  style="text-align:center;"><h2 style="text-align:center;">High possibility it's normal transaction!</h1></span>
+
+</body>
+</html>
+
+{% endblock %}
+
+
+<script type="text/javascript" src="{{url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+
+<script type="text/javascript" src="{{url_for('static', filename = 'js/bootstrap.min.js')}}"></script>

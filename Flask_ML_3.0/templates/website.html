@@ -1,0 +1,58 @@
+{% include "header5.html" %}
+
+<link href="{{url_for('static', filename = 'css/bootstrap.min.css')}}" rel="stylesheet">
+<meta name="viewport" content="width=device-width">
+
+{% block body %}
+<style>
+    body {
+      background-image: url('https://www.blufftonsun.com/wp-content/uploads/2017/01/id_theft.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position:20% 90%;
+      background-size: 40%;
+    }
+    </style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <title>Fraud Detection</title>
+</head>
+    
+<body>
+    <form method="POST", style="text-align: center;">
+        
+        
+        <tr> 
+                <br><br>
+                <span style="color:#182541;"  style="text-align:center;"><h3 style="text-align:center;">Please enter the hour and amount of transaction, as well as your age to see if it's a fraud transaction!</h1></span>
+                <br><br>
+                <label><span style="color:#182541;"><font size="4">Hour: </span></font></label>
+                <input type="number" name="hour", placeholder="Enter hour" required/>
+                <br><br>
+                <label><span style="color:#182541;"><font size="4">Amt: </font></span></label>
+                <input type="number" name="amt", placeholder="Enter amount" required/>
+                <br><br>
+                <label><span style="color:#182541;"><font size="4">Age: </font></span></label>
+                 <input type="number" name="age", placeholder="Enter age" required/>
+
+
+        </tr>
+        <br><br>
+        <p><button type = 'submit'>Run</button></p>
+    </form>
+    <p style="text-align: center;"><span style="color:#FFC0D3;"><font size="5"><span style="color: rgb(255, 255, 255);"></span>{{ output }}</span></font></span></p>
+</body>
+</html>
+
+{% endblock %}
+
+
+<script type="text/javascript" src="{{url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+
+<script type="text/javascript" src="{{url_for('static', filename = 'js/bootstrap.min.js')}}"></script>
+
+
