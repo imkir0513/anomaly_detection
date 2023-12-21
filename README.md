@@ -1,9 +1,9 @@
 # Anomaly Detection on Credit Card Fraud
 
-This project focuses on detecting anomalies in credit card transactions, employing methods such as Logistic Regression, Isolation Forest, Decision Tree, and Naive Bayes. The goal is to identify abnormal events in a simulated credit card transaction dataset obtained from Kaggle. The study involves details about the data source, feature selection, code explanation, and model comparison, with the Decision Tree identified as the best-performing model. The practical application includes insights into fraud patterns, and the project extends to cloud architecture and security plans for scalability. The conclusion emphasizes the simplicity and accuracy of the Decision Tree model in mitigating risks and combating fraud in credit card transactions.
+This project aims to detect anomalies in credit card transactions using methods like Logistic Regression, Isolation Forest, Decision Tree, and Naive Bayes. The goal is to identify unusual events in a simulated credit card dataset from Kaggle. The study covers details about the data source, features, code, and model comparison, highlighting the Decision Tree as the best-performing model. Embracing AWS concepts, the practical application provides insights into fraud patterns and incorporates cloud architecture for scalability. AWS facilitates deployment and security plans, ensuring robustness. The conclusion emphasizes the simplicity and accuracy of the Decision Tree model in managing risks and combating fraud in credit card transactions within the AWS framework.
 
-[[Project PowerPoint]](https://drive.google.com/file/d/1aRfzkz3Ce1CibNvE_z8YgL__RyDmn4oH/view?usp=sharing)<br>
-[[Project Demo]](https://www.youtube.com/watch?v=UPLxJ4jbBDo&ab_channel=YiboGe)
+More details please go to: [[Project PowerPoint]](https://drive.google.com/file/d/1aRfzkz3Ce1CibNvE_z8YgL__RyDmn4oH/view?usp=sharing)<br>
+The demo video: [[Project Demo]](https://www.youtube.com/watch?v=UPLxJ4jbBDo&ab_channel=YiboGe)
 
 ## Project structure
 This project encompasses various stages, starting with data preparation, modeling, and deployment using AWS Storage & Compute services. 
